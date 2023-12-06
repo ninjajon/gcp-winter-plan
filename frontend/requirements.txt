@@ -1,0 +1,4 @@
+typing
+requests
+Flask
+gunicorn
