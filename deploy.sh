@@ -1,5 +1,5 @@
 GOOGLE_CLOUD_PROJECT="jo-winter-plan-igsk"
-frontend_version=0.0.22
+frontend_version=1.0.0
 gcloud config set project ${GOOGLE_CLOUD_PROJECT}
 
 cd frontend
