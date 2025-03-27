@@ -1,0 +1,8 @@
+#!/usr/local/google/home/jolefebvre/Code/gcp-winter-plan-1/frontend/app-streamlit/bin/python3
+# -*- coding: utf-8 -*-
+import re
+import sys
+from gunicorn.app.wsgiapp import run
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(run())
